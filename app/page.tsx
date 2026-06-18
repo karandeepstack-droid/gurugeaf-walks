@@ -2,17 +2,17 @@ import Image from "next/image";
 
 function NavOverlay() {
   return (
-    <div className="absolute top-[2%] right-[5%] w-[45%] h-[5%] flex justify-between z-20">
-      <a href="#home" className="w-1/4 h-full block cursor-pointer hover:bg-black/5 rounded" title="Home">
+    <div className="absolute top-0 right-0 w-[50%] h-[6%] flex justify-between z-20">
+      <a href="#home" className="w-1/4 h-full block cursor-pointer" title="Home">
         <span className="sr-only">Home</span>
       </a>
-      <a href="#about" className="w-1/4 h-full block cursor-pointer hover:bg-black/5 rounded" title="About">
+      <a href="#about" className="w-1/4 h-full block cursor-pointer" title="About">
         <span className="sr-only">About</span>
       </a>
-      <a href="#walks" className="w-1/4 h-full block cursor-pointer hover:bg-black/5 rounded" title="Walks">
+      <a href="#walks" className="w-1/4 h-full block cursor-pointer" title="Walks">
         <span className="sr-only">Walks</span>
       </a>
-      <a href="#bookings" className="w-1/4 h-full block cursor-pointer hover:bg-black/5 rounded" title="Bookings">
+      <a href="#bookings" className="w-1/4 h-full block cursor-pointer" title="Bookings">
         <span className="sr-only">Bookings</span>
       </a>
     </div>
